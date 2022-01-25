@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { TopNavbarComponent } from 'src/Navagation/topnavbar.component';
+import { TopNavbarComponent } from 'src/app/Navagation/topnavbar.component';
 import { AppComponent } from './app.component';
 
 @NgModule({
