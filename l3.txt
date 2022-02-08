@@ -1,0 +1,12 @@
+Main features:
+    edited the file I made for lab 2 because I already made a card
+    made my app.component file use references, and made the cards show up in collums
+    made a list file and a model file. 
+    Made the lists in Storylist.ts
+        made 3 unique cards using a for loop
+            titled based on the name of the Storylist  
+                take my hand
+                Bad timeing
+                Newt Scamander's Old New Resolution
+        assigned the varables for my cards: author, img, tags, fandom, stats, summery
+        edited it app.component.html
