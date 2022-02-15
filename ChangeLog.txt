@@ -1,0 +1,15 @@
+Created several layout files titled: 
+Story-layout
+Other-layout
+homepage-layout
+Fandom-layout
+Books-and-lit-layout
+movies-layout
+Music-and-bands-layout
+Each component has a .ts, .css, and a .html file 
+
+
+added the corresponding paths to the app.routing.model.ts
+the default page is the homepage
+
+Moved the storycards and the filter bar to the Story-layout so they would be there and not the homepage
