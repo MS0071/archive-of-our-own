@@ -9,17 +9,7 @@ import { StorycardModel } from './Story/storycard.model';
 })
 export class AppComponent {
   title = 'ao3-page';
-  Stories: StorycardModel [] = [];
-
-  constructor(){
-    for (var fic of storyList){
-      console.log(fic);
-      this.Stories.push(fic);
-
-    }
-
-
-  }
+  
 
 
 }

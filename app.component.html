@@ -8,23 +8,11 @@
   loading...
 </ao3-DropTopnavbar>
  
+<router-outlet>
+
+</router-outlet>
 
 
 
 
-<ao3-FilterBar>
-  loading...
-</ao3-FilterBar>
 
-<div class = "container-fludid d-flex">
-  <div class="d-flex flex-column bd-highlight mb-3">
-  <div *ngFor = "let fic of Stories"> 
-    <ao3-StoryCard class = m-5 img = {{fic.img}} author = {{fic.author}} tags= {{fic.tags}} 
-    fandom = {{fic.fandom}} summery= {{fic.summery}} date = {{fic.date}} stats = {{fic.stats}}
-
-    >
-      loading...
-    </ao3-StoryCard>
-  </div>
-  </div>
-</div>
