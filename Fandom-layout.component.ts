@@ -1,4 +1,6 @@
 import { Component } from "@angular/core";
+import { CatagoryList } from "../mediaCard";
+import { mediacardModel } from "../mediaCard.model";
 
 @ Component({
     selector : 'ao3-fandom-page',
@@ -7,5 +9,13 @@ import { Component } from "@angular/core";
 
 })
 export class FandomLayoutComponent{
+CatagoryCards : mediacardModel []= [];
+
+constructor(){
+    for (var types of CatagoryList){
+        console.log(types);
+        this.CatagoryCards.push(types); 
+    }
+}
 
 }

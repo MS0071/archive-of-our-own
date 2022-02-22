@@ -1,6 +1,24 @@
 This is fandom page!
-<p>
-    <a routerLink="/storypage">Harry Potter - J. K. Rowling</a>
-</p>
+<a routerLink="/storypage">Harry Potter - J. K. Rowling</a>
 
+<ao3-MediaCard> 
+  Loading...
+</ao3-MediaCard>
+
+
+
+
+<div class = "container">
+
+  <div *ngFor = "let types of CatagoryCards"> 
+    <ao3-MediaCard class = m-5 typeofMedia2= {{types.typeofMedia2}} typeofMedia= {{types.typeofMedia}} title1={{types.title1}} title2={{types.title2}} title3={{types.title3}} title4={{types.title4}} title5={{types.title5}} title12={{types.title12}} title22={{types.title22}} title32={{types.title32}} title42={{types.title42}} title52={{types.title52}} 
+    >
+      loading...
+    </ao3-MediaCard>
+  </div>
+
+  </div>
+
+
+    
 
