@@ -1,0 +1,7 @@
+Made 4 components on the home page:
+    used colums and rows to sort the cards
+    used rows and colums in the cards
+made A for loop for the Fandoms page
+    attruputes for the title of the card and the titles that went in the code
+    they are in the files mediacards
+Made a component for the sorting card in movie
