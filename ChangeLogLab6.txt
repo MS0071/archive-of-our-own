@@ -1,0 +1,8 @@
+Made a firebase account
+changed the edit times in the rules
+added data:
+    First name
+    last name
+    github
+    mix_id
+displayed this information in another page using .json 
