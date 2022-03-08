@@ -1,0 +1,4 @@
+Copied the information from the story list and entered 
+it into firebase
+edited the storyLayout files in order to make them 
+compatible with the firebase databaase
