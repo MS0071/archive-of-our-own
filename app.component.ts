@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { storyList } from './Story/Storylist';
-import { StorycardModel } from './Story/storycard.model';
+
+
 
 @Component({
   selector: 'app-root',
@@ -9,6 +9,9 @@ import { StorycardModel } from './Story/storycard.model';
 })
 export class AppComponent {
   title = 'ao3-page';
+  //
+
+  
   
 
 
