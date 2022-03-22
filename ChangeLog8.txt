@@ -1,0 +1,3 @@
+Down loaded the firebase angular files 
+took out the httpclient components out of the servace file and changed it to firedatabase
+deployed the website so it could be accessed over the internet
