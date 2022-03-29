@@ -1,6 +1,8 @@
 import { Component } from "@angular/core";
-import { StorycardModel } from "./storycard.model";
-import { storyList } from "./Storylist";
+import { StoryService } from "../story.service";
+import { StorycardModel } from "../storycard.model";
+import { storyList } from "../Storylist";
+
 
 
  
@@ -13,14 +15,19 @@ import { storyList } from "./Storylist";
 export class StoryLayoutComponent{
     Stories: StorycardModel [] = [];
 
-    constructor(){
-      for (var fic of storyList){
-        console.log(fic);
-        this.Stories.push(fic);
-  
-      }
-  
-  
+    constructor(private storyService: StoryService){
+      
     }
+    ngOnInit(): void{
+      this.storyService.getStory().subscribe((data: StorycardModel []) => {
+        console.log("Fetch");
+        for (var Story of data){
+          console.log(Story);
+          this.Stories.push(Story);
+        }
+      }
+      )
+    }
+
 
 }

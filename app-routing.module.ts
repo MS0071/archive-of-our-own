@@ -8,6 +8,7 @@ import { otherLayoutComponent } from './Story/Pages/Other-layout.component';
 import { BookandLiteratureLayoutComponent } from './Story/Pages/Books-and-lit-layout.component';
 import { MoviesLayoutComponent } from './Story/Pages/Movies-Layout.component';
 import { musicbandsLayoutComponent } from './Story/Pages/Music-and-bands-layout.component';
+import { AddStoryComponent } from './Story/add-story/add-story.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path: 'Other', component: otherLayoutComponent}, 
   {path: 'BooksAndLiterture', component: BookandLiteratureLayoutComponent},
   {path: 'Movie', component: MoviesLayoutComponent},
-  {path: 'Musicandband', component: musicbandsLayoutComponent}
+  {path: 'Musicandband', component: musicbandsLayoutComponent},
+  {path: 'admin' , component: AddStoryComponent}
 
 ];
 

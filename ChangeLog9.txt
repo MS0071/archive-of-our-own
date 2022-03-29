@@ -1,0 +1,5 @@
+Made the add-Story component files
+added the admin routing to the routing modual
+made the forms to make a storycard
+Sent the information to the firebase database using push
+made sure the data was retrieved 

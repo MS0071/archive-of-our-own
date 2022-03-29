@@ -12,11 +12,15 @@ export class StoryService {
     constructor (private db:AngularFireDatabase){
 
     }
-    public getStory(){
-        return this.db.list<StorycardModel>("stories").valueChanges();
+     getStory(){
+        return this.db.list<StorycardModel>("Stories").valueChanges();
        }
 
-    public getStorys(index: number){
+    getStorys(index: number){
 
+    }
+
+    addStory (Story : StorycardModel){
+        this.db.list<StorycardModel>("Stories").push(Story);
     }
 }

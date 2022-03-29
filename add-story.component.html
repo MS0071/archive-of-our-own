@@ -1,0 +1,53 @@
+<div class = "container">
+    <div class = "row">
+        <div class = col-8>
+            <form #postForm="ngForm" (ngSubmit)="addStory(postForm.value)">
+                <div class = "input-group">
+                    <span class = "input-group-text">
+                        Image Path:
+                    </span>
+                    <input type= "text" class = "form-control" ngModel name = "img">
+                </div>
+                <div class = "input-group">
+                    <span class = "input-group-text">
+                        Author:
+                    </span>
+                    <input type= "text" class = "form-control" ngModel name = "author">
+                </div>
+            
+                <div class = "input-group">
+                    <span class = "input-group-text">
+                        Fandom:
+                    </span>
+                    <input type= "text" class = "form-control" ngModel name = "fandom">
+                </div>
+                <div class = "input-group">
+                    <span class = "input-group-text">
+                        Tags:
+                    </span>
+                    <input type= "text" class = "form-control" ngModel name = "tags">
+                </div>
+                <div class = "input-group">
+                    <span class = "input-group-text">
+                        Summery:
+                    </span>
+                    <input type= "text" class = "form-control" ngModel name = "summery">
+                </div>
+                <div class = "input-group">
+                    <span class = "input-group-text">
+                        Date:
+                    </span>
+                    <input type= "text" class = "form-control" ngModel name = "date">
+                </div>
+                <div class = "input-group">
+                    <span class = "input-group-text">
+                        Stats:
+                    </span>
+                    <input type= "text" class = "form-control" ngModel name = "stats">
+                </div>
+                
+                <button type="submit" class = "btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
