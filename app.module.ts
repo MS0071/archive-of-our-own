@@ -19,6 +19,9 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AddStoryComponent } from './Story/add-story/add-story.component';
+import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 
 @NgModule({
@@ -36,6 +39,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     otherLayoutComponent,
     MoviesLayoutComponent, 
     musicbandsLayoutComponent,
+    AddStoryComponent,
+    AuthenticationComponent,
     
 
     
@@ -45,7 +50,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
