@@ -1,0 +1,6 @@
+I made the auth component files 
+I changed my firebase to enable autherization based on emails
+made the forms int the html file and the signup and log in buttons
+attached the for to the backend 
+created a route to get to the form
+tested it out by making 3 users
